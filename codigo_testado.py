@@ -7,6 +7,14 @@ from playsound import playsound
 import send2trash
 
 # Todas as funções abaixo capituram o audio e utilizam a informação para desenvolver a planilha
+# São elas:
+# ouvir_arquivo()
+# ouvir_coluna()
+# ouvir_nomecoluna()
+# ouvir_numcell()
+# ouvir_x()
+
+# Sobre a função ouvir_arquivo()
 # ouvir_arquivo () captura o nome que será dado ao arquivo xlsx
 def ouvir_arquivo():
     # Habilita o microfone para ouvir o usuario
